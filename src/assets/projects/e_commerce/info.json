@@ -1,0 +1,8 @@
+{
+    "title": "Basic E-Commerce Website",
+    "description": "An e-commerce website was deployed to cloud infrastructure",
+    "explanation": "1 week course project aims that a mock e-commerce develop over cloud infrastructure which can provide basic capabilities such as authentication, item listing and comment system.",
+    "skills": ["Python", "JavaScript", "Flask", "MongoDB"],
+    "website": "https://e-commerce-y2q1.onrender.com/",
+    "github": "https://github.com/toznyigit/e-commerce"
+}

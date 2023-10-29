@@ -1,0 +1,7 @@
+{
+    "title": "IOT Simulation",
+    "description": "IOT sensor simulation for DIONA project",
+    "explanation": "Due to the lack of a usable IOT sensor dataset, a dataset simulator was developed for the DIONA project to generate fabricated metrics such as power, voltage, current, and temperature. The simulator is based on PyPSA (Python for Power System Analysis). It uses time-series, power system topology enhanced with custom modifications, stream, and message broker infrastructures to run on docker containers.",
+    "skills": ["Python", "PyPSA", "Numpy", "Pandas"],
+    "github": "https://github.com/nightswall/PyPSA-Simulations"
+}

@@ -1,0 +1,9 @@
+{
+    "title": "DIONA",
+    "description": "Deep Learning Based IOT Anomaly Detection",
+    "explanation": "DIONA is highly scaleable, network investigation and behavioral analysis infrastructure for anomaly detection on IOT systems. The detection systems are based on deep learning engines.",
+    "skills": ["Python", "Kubernetes", "Tensorflow", "Grafana"],
+    "youtube": "https://www.youtube.com/watch?v=wNJ1v8JQqag",
+    "website": "https://nightswall.github.io/",
+    "github": "https://github.com/nightswall/DIONA"
+}
