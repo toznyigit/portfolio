@@ -1,7 +1,7 @@
 {
     "title": "File Management on FAT32",
-    "description": "",
-    "explanation": "",
+    "description": "Linux like file management and organization for raw FAT32 images",
+    "explanation": "Operating Systems course project for implementation of file management tools as 'ls', 'cd', 'touch' on FAT32 images that bases on manipulation of file allocation tables.",
     "skills": ["C", "Linux", "FAT32"],
-    "github": ""
+    "github": "https://github.com/toznyigit/fat32_fmo"
 }

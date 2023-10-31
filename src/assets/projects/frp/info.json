@@ -1,7 +1,7 @@
 {
     "title": "Forward Rendering Pipeline Implementation",
-    "description": "",
-    "explanation": "",
+    "description": "FRP implementation for rendering images from vertex and mesh data",
+    "explanation": "Computer Graphics course project aims that fast and optimize solutions for transforming three-dimensional scene to two-dimensional representation on a screen with using transformation matrices.",
     "skills": ["C/C++"],
-    "github": ""
+    "github": "https://github.com/toznyigit/forward_rendering_pipeline.git"
 }

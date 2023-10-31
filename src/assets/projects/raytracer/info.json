@@ -1,7 +1,7 @@
 {
     "title": "Basic Raytracer",
-    "description": "",
-    "explanation": "",
+    "description": "Basic raytracer that can render xml mashes as images",
+    "explanation": "Basic implementations for generating images with lightning effects, reflections and shadows that are described as vertices, meshes and objects.",
     "skills": ["C/C++"],
-    "github": ""
+    "github": "https://github.com/toznyigit/raytracing.git"
 }

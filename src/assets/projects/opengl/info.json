@@ -1,7 +1,8 @@
 {
     "title": "Earth simulation with OpenGL",
-    "description": "",
-    "explanation": "",
+    "description": "Interactive Earth-Moon system implementation based on OpenGL",
+    "explanation": "The project is purposed interactive Earth-Moon system that has texture-mapping, shaders and height map with using capabilities of GPU. The OpenGL was used for GPU API in implementation.",
     "skills": ["C/C++", "OpenGL"],
-    "github": ""
+    "github": "https://github.com/toznyigit/earth_simulation",
+    "youtube": "https://youtu.be/ogN2j2HvFTc"
 }
