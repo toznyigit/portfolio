@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Mail, LinkedIn, GitHub } from '@mui/icons-material'
 import '../styles/Footer.css'
 
@@ -8,9 +9,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <Mail/>
-            <LinkedIn/>
-            <GitHub/>
+            
+            <Link to='javascript:void(0)' onClick={() => window.location = 'mailto:t.ozanyigit@gmail.com'}><Mail/></Link>
+            <Link target="_blank" to="https://www.linkedin.com/in/ozan-tamer-yigit/"><LinkedIn/></Link>
+            <Link target="_blank" to="https://github.com/toznyigit"><GitHub/></Link>
         </div>
         <p> &copy; {currentYear} Ozan Tamer Yiğit</p>
     </div>

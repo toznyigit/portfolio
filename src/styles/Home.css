@@ -78,3 +78,101 @@
       font-size: 30px;
     }
   }
+
+  .home > .title {
+    text-align: center;
+    color: #950d0d;
+    font-size: 45px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+
+  .skills-container {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+
+.skill-box {
+  flex-basis: calc(33.33% - 2*5%); /* 33.33% width with 5% margin on each side */
+  background-color: #424242; /* Darker box color */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: max-height 0.5s ease-in-out, transform 0.5s ease-in-out;
+  margin-bottom: 5%; /* Margin between boxes */
+  position: relative;
+  border-radius: 2%;
+  border: 1px solid rgb(11, 11, 11);
+  overflow: hidden;
+  max-height: 42px;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  background: rgba(51, 51, 51);
+  padding: 10px; /* Add padding for better visibility */
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.skill-box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #424242; /* Darker box color */
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.hidden-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px; /* Add padding to hidden content */
+  padding-top: 50px;
+  box-sizing: border-box;
+  z-index: 0;
+  border-radius: inherit;
+  transition: max-height 0.5s ease-in-out;
+  max-height: 0;
+}
+
+.skill-box:hover {
+  max-height: 400px; /* Adjust this value based on your content */
+}
+
+.skill-box:hover .hidden-content {
+  max-height: 400px; /* Expand the hidden content on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .skill-box {
+      flex-basis: calc(50% - 2*5%); /* 50% width with 5% margin on each side for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skill-box {
+      flex-basis: calc(100% - 2*5%); /* 100% width with 5% margin on each side for even smaller screens */
+  }
+}

@@ -5,51 +5,105 @@ function Home() {
     <div className='home'>
         <div className='about'>
             <h2> Hi, my name is Tamer.</h2>
+        </div>
+        <h1 class='title'> Interests & Skills </h1>
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-title">Network Security</div>
+                <div class="hidden-content">
+                    <p>eBPF/XDP</p>
+                    <p>OpenVSwitch</p>
+                    <p>WireGuard</p>
+                    <p>StrongSwan</p>
+                </div>
+            </div>
 
+            <div class="skill-box">
+                <div class="skill-title">Full-Stack Development</div>
+                <div class="hidden-content">
+                    <p>Flask</p>
+                    <p>Django</p>
+                    <p>NodeJS</p>
+                    <p>ExpressJS</p>
+                    <p>Angular</p>
+                    <p>React</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Data Management</div>
+                <div class="hidden-content">
+                    <p>Redis</p>
+                    <p>MySQL</p>
+                    <p>MongoDB</p>
+                    <p>PostgreSQL</p>
+                    <p>Bucardo</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Data Scraping</div>
+                <div class="hidden-content">
+                    <p>Puppeteer</p>
+                    <p>Selenium</p>
+                    <p>Scrapy</p>
+                    <p>BeautifulSoup4</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">DevOps and Configuration Management</div>
+                <div class="hidden-content">
+                    <p>Git</p>
+                    <p>Docker/Docker Compose</p>
+                    <p>Kubernetes</p>
+                    <p>Ansible</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Familiar Linux Distributions</div>
+                <div class="hidden-content">
+                    <p>Ubuntu</p>
+                    <p>Debian</p>
+                    <p>Manjaro</p>
+                    <p>Centos</p>
+                    <p>Fedora</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Embedded Programming</div>
+                <div class="hidden-content">
+                    <p>PIC16 with MPLAB</p>
+                    <p>Cortex A7 with RaspberryPi</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Programming Languages</div>
+                <div class="hidden-content">
+                    <p>Python</p>
+                    <p>C/C++</p>
+                    <p>Javascript</p>
+                    <p>Java</p>
+                    <p>Bash Script</p>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">Other Skills</div>
+                <div class="hidden-content">
+                    <p>Gimp</p>
+                    <p>OpenGL</p>
+                    <p>Godot Engine</p>
+                    <p>PyQt</p>
+                    <p>Tkinter</p>
+                    <p>Latex</p>
+                </div>
+            </div>
         </div>
-        <div className='skills'>
-            <h1 className='skills'></h1>
-            <ol className='list'>
-                <li className='item'>
-                    <h2>Network Security</h2>
-                    <span>
-                        eBPF/XDP, OpenVSwitch, WireGuard, StrongSwan
-                    </span>
-                    <h2>Full-Stack Development</h2>
-                    <span>
-                        ExpressJS, NodeJS, Django, Flask, Angular, React
-                    </span>
-                    <h2>Data Management</h2>
-                    <span>
-                        Redis, MySQL, MongoDB, PostgreSQL, Bucardo
-                    </span>
-                    <h2>Data Scraping</h2>
-                    <span>
-                        Puppeteer, Selenium, Scrapy, BeautifulSoup4
-                    </span>
-                    <h2>DevOps and Configuration Management</h2>
-                    <span>
-                        Git, Docker/Docker Compose, Kubernetes, Ansible
-                    </span>
-                    <h2>Familiar Linux Distributions</h2>
-                    <span>
-                        Manjaro, Ubuntu, Debian, Centos, Fedora
-                    </span>
-                    <h2>Embedded Programming</h2>
-                    <span>
-                        PIC16 with MPLAB, Cortex A7 with RaspberryPi
-                    </span>
-                    <h2>Programming Languages</h2>
-                    <span>
-                        Python, C/C++, Javascript, Java, Bash, Assembly
-                    </span>
-                    <h2>Other Skills</h2>
-                    <span>
-                        Gimp, OpenGL, Godot Engine, PyQt, Tkinter, Latex
-                    </span>
-                </li>
-            </ol>
-        </div>
+
     </div>
   )
 }

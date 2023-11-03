@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import "../styles/Navbar.css"
 import { Reorder } from '@mui/icons-material'
 
@@ -19,9 +19,9 @@ function Navbar() {
             </button>
         </div>
         <div className='links'>
-            <Link to="/portfolio">Home</Link>
-            <Link to="/portfolio/projects">Projects</Link>
-            <Link to="/portfolio/experience">Experience</Link>
+            <NavLink to="/portfolio" class={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
+            <NavLink to="/portfolio/projects" class={({ isActive }) => (isActive ? 'active' : 'inactive')}>Projects</NavLink>
+            <NavLink to="/portfolio/experience" class={({ isActive }) => (isActive ? 'active' : 'inactive')}>Experience</NavLink>
         </div>
     </div>
   )
