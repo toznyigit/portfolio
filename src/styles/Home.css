@@ -44,7 +44,7 @@
   }
   
   .skills {
-    font-size: 35px;
+    font-size: 3em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@
   }
   
   .list span {
-    font-size: 20px;
+    font-size: 2em;
   }
   
   .home > .title {
