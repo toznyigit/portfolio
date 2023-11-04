@@ -1,7 +1,7 @@
 {
     "title": "eBPF/XDP based programs",
-    "description": "",
-    "explanation": "",
+    "description": "Working on it.",
+    "explanation": "Working on it.",
     "skills": ["C", "eBPF/XDP", "Python", "BCC", "Linux", "TCP/IP stack"],
     "github": ""
 }
