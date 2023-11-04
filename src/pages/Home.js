@@ -17,7 +17,7 @@ function Home() {
                     1000,
                     "Embedded & Kernel Enthusiastic",
                     1000,
-                    "",
+                    "Electronic Hobbyist",
                     1000,
                     ]}
                     speed={25}

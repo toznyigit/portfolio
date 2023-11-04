@@ -65,29 +65,6 @@
     font-size: 20px;
   }
   
-  @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  
-    .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
-  }
-
   .home > .title {
     text-align: center;
     color: #950d0d;
@@ -183,5 +160,49 @@
 @media screen and (max-width: 480px) {
   .skill-box {
       flex-basis: calc(100% - 2*5%); /* 100% width with 5% margin on each side for even smaller screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about h3 {
+    margin: 3%;
+    font-size: 30px;
+  }
+
+  .skill-title {
+    font-size: 15px;
+  }
+
+  .home > .title {
+    font-size: 30px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 25px;
+  }
+
+  .skill-box {
+    max-height: 35px;
+  }
+
+  .hidden-content {
+    font-size: 15px;
   }
 }
