@@ -39,7 +39,7 @@ export const projectList = [
     {
         "id": 3,
         ...XDPInfo,
-        "image": XPDImg
+        "image": XDPImg
     },
     {
         "id": 4,
