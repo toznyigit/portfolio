@@ -1,10 +1,29 @@
 import React from 'react'
+import { TypeAnimation } from 'react-type-animation'
+
+
 import '../styles/Home.css'
 function Home() {
   return (
     <div className='home'>
         <div className='about'>
-            <h2> Hi, my name is Tamer.</h2>
+            <h2> Hi there, I am Tamer.</h2>
+            <h3>
+                <TypeAnimation
+                    sequence={[
+                    "Computer Engineer",
+                    1000,
+                    "System & Software Developer",
+                    1000,
+                    "Embedded & Kernel Enthusiastic",
+                    1000,
+                    "",
+                    1000,
+                    ]}
+                    speed={25}
+                    repeat={Infinity}
+                />
+            </h3>
         </div>
         <h1 class='title'> Interests & Skills </h1>
         <div class="skills-container">
