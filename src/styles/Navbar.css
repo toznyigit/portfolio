@@ -1,7 +1,14 @@
 .navbar {
-    width: 100%;
-    height: 100px;
-    background: #21325e;
+    margin-top: 35px;
+    width: 20%;
+    height: 50px;
+    /* background: linear-gradient(#9c1616, #b63534); */
+    background: transparent;
+    align-items: center;
+    align-self: center;
+    border-bottom: 5pt solid #b63534;
+    border-bottom-left-radius: 3pt;
+    border-bottom-right-radius: 3pt;
   }
   
   .links {
@@ -14,14 +21,14 @@
   }
   
   .navbar a {
-    color: white;
+    color: rgb(15, 14, 14);
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
   }
 
   .navbar a:hover {
-    color: rgb(159, 159, 159);
+    color: rgb(71, 68, 68);
   }
 
   .toggleButton {

@@ -2,7 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import { School, Work } from '@mui/icons-material'
 import "react-vertical-timeline-component/style.min.css"
-// import "../styles"
+import "../styles/Experience.css"
 
 
 function Experience() {
@@ -12,7 +12,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--education'
                 date="Sep 2016 - Jun 2018"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<School/>}>
                     <h3 className='vertical-timeline-element-title'>
                         Gazi University
@@ -25,7 +24,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
                 date="Sep 2018 - Jul 2023"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<School/>}>
                     <h3 className='vertical-timeline-element-title'>
                         Middle East Technical University
@@ -38,7 +36,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
                 date="Aug 2021 - Oct 2021"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<Work/>}>
                     <h3 className='vertical-timeline-element-title'>
                         SOMERA - Social Media Investigate, Survey and Analysis 
@@ -51,7 +48,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
                 date="Oct 2021 - Jul 2022"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<Work/>}>
                     <h3 className='vertical-timeline-element-title'>
                         SOMERA - Social Media Investigate, Survey and Analysis 
@@ -64,7 +60,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
                 date="Jul 2022 - Sep 2022"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<Work/>}>
                     <h3 className='vertical-timeline-element-title'>
                         Labris Networks
@@ -77,7 +72,6 @@ function Experience() {
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
                 date="Sep 2023 - Aug 2023"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
                 icon={<Work/>}>
                     <h3 className='vertical-timeline-element-title'>
                         Labris Networks
@@ -89,8 +83,7 @@ function Experience() {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className='vertical-timeline-element--work'
-                date="Aug 2023 - present"
-                iconStyle={{background: "#3e497a", color: "#fff"}}
+                date="Aug 2023 - Jan 2024"
                 icon={<Work/>}>
                     <h3 className='vertical-timeline-element-title'>
                         Labris Networks
@@ -98,7 +91,19 @@ function Experience() {
                     <h4 className="vertical-timeline-element-subtitle">
                         System and Software Engineer
                     </h4>
-                    <p> Development of DDoS mitigation system HARRP4. </p>
+                    <p> Development of DDoS mitigation system HARRP4 with kernel bypass methods such as eBPF/XDP.</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className='vertical-timeline-element--work'
+                date="Jan 2024 - present"
+                icon={<Work/>}>
+                    <h3 className='vertical-timeline-element-title'>
+                        Kuartis
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                        Software Engineer
+                    </h4>
+                    <p> Development of multimedia streaming and management systems on autonomous vehicles. </p>
             </VerticalTimelineElement>
         </VerticalTimeline>
     </div>

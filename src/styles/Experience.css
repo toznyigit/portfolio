@@ -1,0 +1,9 @@
+.vertical-timeline::before {
+    background: linear-gradient(#b63534, #34a6a6);
+}
+
+.vertical-timeline-element-icon {
+    background-color: #f0f0f0;
+    box-shadow: none;
+    scale: 1.33;
+}

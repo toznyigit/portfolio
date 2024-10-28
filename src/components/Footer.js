@@ -14,6 +14,7 @@ function Footer() {
             <Link target="_blank" to="https://www.linkedin.com/in/ozan-tamer-yigit/"><LinkedIn/></Link>
             <Link target="_blank" to="https://github.com/toznyigit"><GitHub/></Link>
         </div>
+        <p>Click for resume</p>
         <p> &copy; {currentYear} Ozan Tamer Yiğit</p>
     </div>
   )
