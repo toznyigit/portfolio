@@ -17,10 +17,17 @@ const settings = {
     className: "center",
     centerMode: true,
     centerPadding: "60px",
-    speed: 500,
+    speed: 100,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
+        {
+            breakpoint: 900,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+        },
         {
           breakpoint: 600,
           settings: {
@@ -241,7 +248,7 @@ const settings = {
                                         <p class="skill-text">Scrapy</p>
                                     </div>
                                     <div class="skill-item">
-                                        <p class="skill-text" style={{"font-size": "20px"}}>BeautifulSoup4</p>
+                                        <p class="skill-text" id="long-text">BeautifulSoup4</p>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +369,7 @@ const settings = {
                                         <p class="skill-text">Tkinter</p>
                                     </div>
                                     <div class="skill-item">
-                                        <p class="skill-text" style={{"font-size": "20px"}}>Godot Engine</p>
+                                        <p class="skill-text" id="long-text">Godot Engine</p>
                                     </div>
                                 </div>
                             </div>

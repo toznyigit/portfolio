@@ -15,7 +15,7 @@ function Navbar() {
     <div className='navbar' id={expandNavbar ? "open" : "close"}>
         <div className='toggleButton'>
             <button onClick={() => {setExpandNavbar((prev) => !prev)}}>
-                <Reorder />
+                <Reorder  sx={{ color: "#b63534" }}/>
             </button>
         </div>
         <div className='links'>

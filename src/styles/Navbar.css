@@ -78,6 +78,9 @@
     #close a {
       display: none;
     }
+    .navbar {
+      border-bottom: none;
+    }
   }
   
   @media only screen and (min-width: 600px) {

@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.5em;
+    margin: 0.75vw;
     align-content: space-around;
     flex-wrap: wrap;
 }
@@ -32,7 +32,7 @@
     justify-content: center;
     align-content: space-around;
     width: 100%;
-    height: 5em;
+    height: 5vw;
     border-top: 0.15em solid rgba(0, 0, 0, 0.66);
     border-bottom: 0.15em solid rgba(0, 0, 0, 0.66);
 
@@ -40,18 +40,18 @@
 
 .card-header h2 {
     font-family: Georgia,Times,Times New Roman,serif; 
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: rgb(139, 95, 6);
 }
 
 .main-icon {
     width: 50%; /* Adjust size as needed */
     height: auto;
-    margin: 5%;
+    margin: 1vw;
 }
 
 .skills {
-    margin-top: 15%;
+    margin-top: 2vw;
     display: table;
     justify-content: center;
     flex-wrap: wrap;
@@ -89,10 +89,14 @@
 
 .skill-text {
     margin: 0;
-    font-size: 24px;
+    font-size: 1.1vw;
     padding-top: 5%;
     color: rgba(17, 15, 15, 0.842);
     font-family: Verdana, Geneva, Tahoma, monospace;
+}
+
+#long-text {
+    font-size: 1vw;
 }
 
 .progress-container {
@@ -107,4 +111,51 @@
     background-size:var(--p,50%) 100%,100% 100%;
     background-position:right,left;
     background-repeat:no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+    .skill-text {
+        margin: 0;
+        font-size: 1.7vw;
+        padding-top: 5%;
+    }
+    .card-header h2 {
+        font-size: 2vw;
+    }
+    .card-header .card-header-line {
+        height: 7.5vw;
+    }
+    .main-icon {
+        margin: 2vw;
+    }
+    .skills {
+        margin-top: 4vw;
+    }
+
+    #long-text {
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skill-text {
+        margin: 0;
+        font-size: 3.3vw;
+        padding-top: 5%;
+    }
+    .card-header h2 {
+        font-size: 3.5vw;
+    }
+    .card-header .card-header-line {
+        height: 10vw;
+    }
+    .main-icon {
+        margin: 3vw;
+    }
+    .skills {
+        margin-top: 6vw;
+    }
+    #long-text {
+        font-size: 2.6vw;
+    }
 }
