@@ -43,6 +43,12 @@
   color: white;
 }
 
+.scontainer {
+  overflow: hidden;
+  margin-bottom: 4%;
+  margin-top: -2%;
+}
+
 .skills {
   font-size: 35px;
   width: 100%;

@@ -1,7 +1,6 @@
 .slick-center .skill-card {
     opacity: 1;
     transform: scale(1.08);
-    filter: none;
 }
 
 .skill-card {
@@ -17,16 +16,11 @@
     opacity: 0.6;
 }
 
-.slick-center .card-header {
-    filter: none;
-}
-
 .card-header {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1.5em;
-    filter: blur(10px);
     align-content: space-around;
     flex-wrap: wrap;
 }
@@ -57,17 +51,60 @@
 }
 
 .skills {
-    display: flex;
+    margin-top: 15%;
+    display: table;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.skills-row {
+    display: table-row;
+    width: 100%;
+}
+
+.skills-cell {
+    display: inline-grid;
+    width: 40%;
+    margin: 3%;
 }
 
 .skills td {
     font-size: 1em;
 }
 
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    /* flex-direction: row;
+    align-items: center; */
+}
+
 .skill-icon {
-    width: 30px; /* Adjust size as needed */
-    height: auto;
-    margin: 5px;
+    width: 1em!important; /* Adjust size as needed */
+    height: auto!important;
+    margin: 0.5rem;
+    float: left;
+}
+
+.skill-text {
+    margin: 0;
+    font-size: 24px;
+    padding-top: 5%;
+    color: rgba(17, 15, 15, 0.842);
+    font-family: Verdana, Geneva, Tahoma, monospace;
+}
+
+.progress-container {
+    width: 75%;
+}
+
+.progress {
+    height: 0.5rem;
+    background-image: 
+        linear-gradient(#ccc,#ccc),
+        linear-gradient(to right,#34b695, #3493b6);
+    background-size:var(--p,50%) 100%,100% 100%;
+    background-position:right,left;
+    background-repeat:no-repeat;
 }
